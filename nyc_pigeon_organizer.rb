@@ -24,5 +24,6 @@ def nyc_pigeon_organizer(data)
       }
     }
   }
+  # dont forget to return the new data set
   new_data
 end
