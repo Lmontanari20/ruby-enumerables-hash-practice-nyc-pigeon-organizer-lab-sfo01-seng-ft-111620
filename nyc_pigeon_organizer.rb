@@ -19,10 +19,9 @@ def nyc_pigeon_organizer(data)
         if new_data[name][k] == nil 
           new_data[name][k] = []
         end
-      
+        # now that the data_set is set up we can simply add the data into the inner most arrays 
         new_data[name][k] << k2.to_s
       }
     }
   }
-  new_data
 end
