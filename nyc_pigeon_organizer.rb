@@ -12,8 +12,8 @@ def nyc_pigeon_organizer(data)
         # if name is not in new hash add it, add values to new hash
         if new_data[name] == nil 
           new_data[name] =  {
-            color: []
-            gender: []
+            color: [],
+            gender: [],
             lives: []
           }
         end
