@@ -17,7 +17,7 @@ def nyc_pigeon_organizer(data)
             lives: []
           }
         end
-        new_data[name][k] << k2
+        new_data[name][k] << k2.to_s
       }
     }
   }
