@@ -16,9 +16,10 @@ def nyc_pigeon_organizer(data)
           }
         end
         # if the name is there but the corresponding key isn't add it and make it an array
-        if new_data[name][k] == nil {
+        if new_data[name][k] == nil 
           new_data[name][k] = []
-        }
+        end
+      
         new_data[name][k] << k2.to_s
       }
     }
